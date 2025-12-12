@@ -10,7 +10,7 @@ Say goodbye to hunting through menus. Convert documents instantly from your term
 * Simple CLI — no GUI clutter
 * Perfect for automation, CI/CD, or batch operations
 
-## 🔧 Getting Started
+## Getting Started
 
 ### Install dependencies
 
