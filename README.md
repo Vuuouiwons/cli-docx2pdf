@@ -1,13 +1,50 @@
 # cli-docx2pdf
-have you wrongfully submitted a very important pdf file because of microsoft confusing GUI? well you have come to the right place, this repo contains simple docx2pdf cli program.
+A fast and frustration-free CLI tool to convert **DOCX → PDF** — created for anyone who's ever accidentally submitted the wrong PDF thanks to Microsoft Word’s confusing UI.
 
-# get started
-use uv to install depedency and contribute to this project
+Say goodbye to hunting through menus. Convert documents instantly from your terminal.
+
+
+## Features
+
+* Convert `.docx` files to `.pdf` with a single command
+* Simple CLI — no GUI clutter
+* Perfect for automation, CI/CD, or batch operations
+
+## 🔧 Getting Started
+
+### Install dependencies
+
+This project uses **uv** for dependency management:
+
 ```bash
-$ uv sync
+uv sync
 ```
 
-build application with
+### Build the CLI executable
+
+Generate a standalone binary using **PyInstaller**:
+
 ```bash
-$ pyinstaller --onefile src/main.py
+pyinstaller --onefile src/main.py
+```
+
+The compiled executable will appear in the `dist/` folder.
+
+## Usage
+
+After building the tool, run:
+
+```bash
+cli-docx2pdf input.docx
+```
+
+## Contributing
+
+Contributions are welcome!
+Feel free to submit issues, open pull requests, or suggest improvements.
+
+To set up a development environment:
+
+```bash
+uv sync
 ```
