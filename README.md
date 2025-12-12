@@ -38,6 +38,8 @@ After building the tool, run:
 cli-docx2pdf input.docx
 ```
 
+This tool will output the file to ~/Desktop/DOCX2PDF on Windows and macOS, ~/DOCX2PDF on Linux
+
 ## Contributing
 
 Contributions are welcome!
